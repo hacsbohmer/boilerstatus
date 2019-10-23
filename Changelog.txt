@@ -1,0 +1,9 @@
+1.0.5
+- firmware 5 compatibility
+
+1.0.3
+- you can select which value to display in Dim state by clicking on the tile
+  toggle between water pressure and relative burner modulation level
+
+1.0.2
+- first public release
