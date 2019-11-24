@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick 2.1
 import qb.components 1.0
 
 /*
@@ -295,7 +295,7 @@ Tile {
 
 	Image {
 	    id: boilerStatusTileRoomTempSetpointIcon
-	    source: "./drawables/RoomTempSetpointIcon.png"
+	    source: "qrc:/tsc/RoomTempSetpointIcon.png"
 	    anchors {
 		baseline: parent.top
 		baselineOffset: isNxt ? 19 : 15
@@ -308,7 +308,7 @@ Tile {
 	
 	Image {
 	    id: boilerStatusTileRoomTempIcon
-	    source: "./drawables/RoomTempIcon.png"
+	    source: "qrc:/tsc/RoomTempIcon.png"
 	    anchors {
 		baseline: parent.top
 		baselineOffset: isNxt ? 19 : 15
@@ -321,7 +321,7 @@ Tile {
 	
 	Image {
 	    id: boilerStatusTileBoilerTempOutSetpointIcon
-	    source: "./drawables/BoilerOutTempSetpointIcon.png"
+	    source: "qrc:/tsc/BoilerOutTempSetpointIcon.png"
 	    anchors {
 		baseline: parent.top
 		baselineOffset: isNxt ? 63 : 50
@@ -334,7 +334,7 @@ Tile {
 	
 	Image {
 	    id: boilerStatusTileBoilerTempOutIcon
-	    source: "./drawables/BoilerTempOutIcon.png"
+	    source: "qrc:/tsc/BoilerTempOutIcon.png"
 	    anchors {
 		baseline: parent.top
 		baselineOffset: isNxt ? 63 : 50
@@ -347,7 +347,7 @@ Tile {
 	
 	Image {
 	    id: boilerStatusTileBoilerTempInIcon
-	    source: "./drawables/BoilerTempInIcon.png"
+	    source: "qrc:/tsc/BoilerTempInIcon.png"
 	    anchors {
 		baseline: parent.top
 		baselineOffset: isNxt ? 106 : 85
@@ -360,7 +360,7 @@ Tile {
 
 	Image {
 	    id: boilerStatusTileBoilerPressureIcon
-	    source: "./drawables/BoilerPressureIcon.png"
+	    source: "qrc:/tsc/BoilerPressureIcon.png"
 	    anchors {
 		baseline: parent.top
 		baselineOffset: isNxt ? 106 : 85
@@ -373,7 +373,7 @@ Tile {
 	
 	Image {
 	    id: boilerStatusTileModulationLevelIcon
-	    source: "./drawables/flameSmall.png"
+	    source: "qrc:/tsc/flameSmall.png"
 	    anchors {
 		baseline: parent.top
 		baselineOffset: isNxt ? 150 : 120

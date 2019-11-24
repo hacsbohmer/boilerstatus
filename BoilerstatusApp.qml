@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick 2.1
 import qb.components 1.0
 import qb.base 1.0
 
@@ -17,7 +17,7 @@ App {
     
    
     property url tileUrl : "BoilerstatusTile.qml"
-    property url thumbnailIcon: "./drawables/boilerstatus.png"
+    property url thumbnailIcon: "qrc:/tsc/boilerstatus.png"
 
     /* boiler status parameters */
 
