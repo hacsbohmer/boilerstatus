@@ -42,7 +42,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 28 : 22
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -60,7 +60,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 28 : 22
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	} 
 	
@@ -78,7 +78,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 28 : 22
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -96,7 +96,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 28 : 22
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 
@@ -114,7 +114,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 28 : 22
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -133,7 +133,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 28 : 22
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -152,7 +152,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 28 : 22
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 
@@ -174,7 +174,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 23 : 18
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -193,7 +193,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 23 : 18
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -212,7 +212,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 23 : 18
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -232,7 +232,7 @@ Tile {
 		pixelSize: isNxt ? 23 : 18
 	    }
 	    visible: !dimState
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	}
 	
 
@@ -250,7 +250,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 23 : 18
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
    }
 
@@ -269,7 +269,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 23 : 18
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 	
@@ -287,7 +287,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 23 : 18
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: !dimState
 	}
 		
@@ -397,7 +397,7 @@ Tile {
 			family: qfont.regular.name
 			pixelSize: qfont.clockFaceText
 		}
-		color: colors.waTileTextColor
+		color: (typeof dimmableColors !== 'undefined') ? dimmableColors.waTileTextColor : colors.waTileTextColor
       		visible: app.showPressureInDimState && dimState
 	}
 
@@ -413,7 +413,7 @@ Tile {
 			family: qfont.regular.name
 			pixelSize: isNxt ? 50 : 40
 		}
-		color: colors.waTileTextColor
+		color: (typeof dimmableColors !== 'undefined') ? dimmableColors.waTileTextColor : colors.waTileTextColor
       		visible: app.showPressureInDimState && dimState
 	}
 
@@ -430,7 +430,7 @@ Tile {
 			family: qfont.regular.name
 			pixelSize: qfont.clockFaceText
 		}
-		color: colors.waTileTextColor
+		color: (typeof dimmableColors !== 'undefined') ? dimmableColors.waTileTextColor : colors.waTileTextColor
       		visible: (!app.showPressureInDimState) && dimState
 	}
 
@@ -446,7 +446,7 @@ Tile {
 			family: qfont.regular.name
 			pixelSize: isNxt ? 50 : 40
 		}
-		color: colors.waTileTextColor
+		color: (typeof dimmableColors !== 'undefined') ? dimmableColors.waTileTextColor : colors.waTileTextColor
       		visible: (!app.showPressureInDimState) && dimState
 	}
 
@@ -465,7 +465,7 @@ Tile {
 		pixelSize: isNxt ? 19 : 15
 	    }
 	    visible: dimState
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	}
 
 	Text { 
@@ -481,7 +481,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 19 : 15
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: dimState
 	}
 
@@ -499,7 +499,7 @@ Tile {
 		pixelSize: isNxt ? 19 : 15
 	    }
 	    visible: dimState
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	}
 
 	Text {
@@ -516,7 +516,7 @@ Tile {
 		pixelSize: isNxt ? 19 : 15
 	    }
 	    visible: dimState
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	}
 
 	Text { 
@@ -532,7 +532,7 @@ Tile {
 		family: qfont.regular.name
 		pixelSize: isNxt ? 19 : 15
 	    }
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	    visible: dimState
 	}
 
@@ -550,7 +550,7 @@ Tile {
 		pixelSize: isNxt ? 19 : 15
 	    }
 	    visible: dimState
-	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
+	    color: (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : (typeof dimmableColors !== 'undefined') ? dimmableColors.clockTileColor : colors.clockTileColor
 	}
 	
 
